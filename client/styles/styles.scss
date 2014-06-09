@@ -1,0 +1,33 @@
+@import "packages/bourbon/bourbon";
+
+$hw: 100%;
+
+.him {
+	position: relative;
+	float: left;
+	width: $hw;
+	height: 200px;
+
+	background-color: blue;
+	&:hover {
+		background-color: lighten(blue, 10%)
+	}
+}
+
+.her {
+	@extend .him;
+	background-color: pink;
+	&:hover {
+		background-color:lighten(pink, 3%);
+	}
+}
+
+.vex {
+	position: absolute;
+	bottom:.3em ;
+	right:-.1em;
+
+	text-align: right;
+	font-size: 14em;
+	color: white;
+}

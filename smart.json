@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "scss": {},
+    "bourbon": {},
+    "blaze-layout": {},
+    "iron-router": {},
+    "accounts-ui-bootstrap-dropdown": {}
+  }
+}
