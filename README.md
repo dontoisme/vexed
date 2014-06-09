@@ -9,30 +9,31 @@ I think I’ll use meteor in this app, so I can easily keep track of the button 
 
 # Todo
 
-[X]Create Meteor App
+[x]Create Meteor App
 
 [ ]Collection of users
 - [ ]normal photo
 - [ ]frustrated photo
 - [ ]name
 
-[X]Collection of Punches
-- [X]date
-- [X]instigator
-- [X]victim
-- [X]id
+[x]Collection of Punches
+- [x]date
+- [x]instigator
+- [x]victim
+- [x]id
 
-[X]Login
-- [X]one for Don
-- [X]one for Sara
+[x]Login
+- [x]one for Don
+- [x]one for Sara
 - [ ][Future] if not Sara or Don login and get to see both photos side by side.
 
-[X]Main View
-- [X]Dependent on who is logged in
-    - [X]Sara sees herself (so if she presses on herself, we are assuming it was don who instigated)
-    - [X]Don sees himself (so if he presses on himself, we are assuming it was sara - who instigated)
-    - [ ][Future] Let one of us decided who instigated.[X]Click on him and update db
-- [X]Click on her and update db
+[x]Main View
+- [x]Dependent on who is logged in
+    - [x]Sara sees herself (so if she presses on herself, we are assuming it was don who instigated)
+    - [x]Don sees himself (so if he presses on himself, we are assuming it was sara - who instigated)
+    - [ ][Future] Let one of us decided who instigated.
+- [x]Click on him and update db
+- [x]Click on her and update db
 - [ ]First Login
 
 [ ]Landing Page
